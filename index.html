@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+</head>
+<body>
+
+  <h1>CHECK THE CONSOLE FOR THE JAVASCRIPT ANSWERS</h1>
+
+  <h2>Javascript Exercise</h2>
+  <h2>Questions</h2>
+  <ol>
+    <li>You have been given the task to manage a small library&#39;s book inventory. The library has a collection of
+      books, and each book is represented as an object with the following properties:
+      title (string): The title of the book.
+      author (string): The author of the book.
+      yearPublished (number): The year the book was published.
+      available (boolean): Whether the book is currently available for borrowing.
+      The library&#39;s book inventory is stored in an array named library. <br>
+      Create the library Array:
+      Start by creating an empty array named library to store book objects.
+      Add Books to the Library: <br>
+      Add the following book objects to the library array using the push method:
+      &quot;The Great Gatsby&quot;, &quot;F. Scott Fitzgerald&quot;, 1925, true
+      &quot;To Kill a Mockingbird&quot;, &quot;Harper Lee&quot;, 1960, true
+      &quot;1984&quot;, &quot;George Orwell&quot;, 1949, false
+      &quot;Pride and Prejudice&quot;, &quot;Jane Austen&quot;, 1813, true
+      </li>
+
+      <li>
+        Update the Availability of a Book:
+        You need to update the availability of &quot;1984&quot; to true by directly modifying the available property in the
+        library array.
+        Remove a Book from the Library:
+        Remove &quot;Pride and Prejudice&quot; from the library array using the splice method.
+      </li>
+
+      <li>
+
+        Check if a Book is in the Library: <br>
+
+        Check if &quot;The Great Gatsby&quot; is in the library using the includes method. Note that this method cannot be
+        directly applied to objects, so think creatively about how to solve this.
+      </li>
+
+      <li>
+        Borrow the First Book: <br>
+        Assume a user wants to borrow the first available book. Remove the first book from the library array
+        using the shift method. Update its available status to false before removing it from the array, and then
+        display the updated book details.
+        Add a New Book to the Start of the Library:
+        Add a new book &quot;The Catcher in the Rye&quot;, &quot;J.D. Salinger&quot;, 1951, true to the beginning of the library array
+        using the unshift method.
+      </li>
+      
+      <li>
+        Get a List of All Book Titles:
+        Extract a list of all the book titles from the library array and combine them into a single string, with each
+        title separated by a comma, using the join method.
+      </li>
+      <li>
+        Create a New Library Section:
+        Create a new array called newArrivals containing only the last two books in the library array using the
+        slice method.
+      </li>
+
+
+  </ol>
+  <script src="/array.js"></script>
+</body>
+</html>
